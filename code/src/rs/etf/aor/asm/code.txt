@@ -1,0 +1,2 @@
+and ax, bx
+and ax, #54

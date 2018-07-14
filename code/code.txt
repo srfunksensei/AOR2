@@ -1,0 +1,15 @@
+movs ax, #3
+movd ax, 34
+movs ax, #500
+movd ax, [34]
+movs ax, 34
+movs bx, [34]
+add ax, bx
+inc cx
+jsr 292
+movd ax, 34
+halt
+
+inc ax
+dec bx
+rts
